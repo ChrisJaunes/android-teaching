@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".example.Exp2Activity"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="本实验为第一个实验，用于体验服务（绑定模式）流程"
+        tools:ignore="HardcodedText" />
+    <Button
+        android:id="@+id/btn_exp2_bind_service"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="绑定服务"
+        tools:ignore="HardcodedText"/>
+    <Button
+        android:id="@+id/btn_exp2_test_service"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="测试活动和服务间的通讯"
+        tools:ignore="HardcodedText"/>
+    <Button
+        android:id="@+id/btn_exp2_unbind_service"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="解绑服务"
+        tools:ignore="HardcodedText"/>
+</LinearLayout>

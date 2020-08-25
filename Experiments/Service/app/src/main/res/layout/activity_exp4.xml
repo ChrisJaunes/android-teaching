@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".example.Exp4Activity">
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="了解AsyncTask的使用"
+        tools:ignore="HardcodedText" />
+    <Button
+        android:id="@+id/btn_exp4_test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="使用AsyncTask"
+        tools:ignore="HardcodedText" />
+</LinearLayout>

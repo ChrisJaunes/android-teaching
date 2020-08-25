@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation = "vertical"
+    tools:context=".example.Exp3Activity">
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="原始文本"
+        tools:ignore="HardcodedText"/>
+    <Button
+        android:id="@+id/btn_exp3_change"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text = "异步改变文本"
+        tools:ignore="HardcodedText"/>
+
+</LinearLayout>
