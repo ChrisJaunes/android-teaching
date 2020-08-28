@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".example.Exp3Activity">
+    <TextView
+        android:id="@+id/btn_exp3_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="改变网络状态"
+        tools:ignore="HardcodedText"/>
+    <Button
+        android:id="@+id/btn_exp3_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="发送一条exp3.2的标准广播"
+        tools:ignore="HardcodedText" />
+    <Button
+        android:id="@+id/btn_exp3_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="发送一条exp3.3的有序广播"
+        tools:ignore="HardcodedText" />
+</LinearLayout>

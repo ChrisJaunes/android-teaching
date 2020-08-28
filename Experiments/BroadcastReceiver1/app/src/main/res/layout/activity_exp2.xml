@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".example.Exp2Activity">
+    <Button
+        android:id = "@+id/btn_exp2_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="注册一个监听exp2.1的广播"
+        tools:ignore="HardcodedText" />
+    <Button
+        android:id="@+id/btn_exp2_1s"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="发送一条exp2.1的广播"
+        tools:ignore="HardcodedText"/>
+    <Button
+        android:id = "@+id/btn_exp2_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="注册一个监听exp2.2的广播"
+        tools:ignore="HardcodedText" />
+    <Button
+        android:id="@+id/btn_exp2_2s"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="发送一条exp2.2的广播"
+        tools:ignore="HardcodedText"/>
+    <Button
+        android:id="@+id/btn_exp2_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="发送一条exp2.3的广播"
+        tools:ignore="HardcodedText"/>
+    <Button
+        android:id="@+id/btn_exp2_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="发送一条exp2.4的广播"
+        tools:ignore="HardcodedText"/>
+</LinearLayout>
