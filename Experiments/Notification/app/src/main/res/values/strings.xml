@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Notification</string>
+    <string name="channel1_id">CHANNEL_ID1</string>
+    <string name="channel1_name">渠道一</string>
+    <string name="channel1_description">这里是关于渠道一的描述</string>
+    <string name="channel2_id">CHANNEL_ID2</string>
+    <string name="channel2_name">渠道二</string>
+    <string name="channel2_description">这里是关于渠道二的描述</string>
+    <string name="channel3_id">CHANNEL_ID3</string>
+    <string name="channel3_name">渠道三</string>
+    <string name="channel3_description">这里是关于渠道三的描述</string>
+</resources>
