@@ -24,7 +24,7 @@ public class Exp4Activity extends AppCompatActivity {
         localBroadcastManage = LocalBroadcastManager.getInstance(this);
 
         IntentFilter intentFilter = new IntentFilter();
-        intentFilter.addAction(getString(R.string.BroadcastExp2_4));
+        intentFilter.addAction(getString(R.string.BroadcastExp4_1));
         exp4Receiver = new Exp4Receiver();
         localBroadcastManage.registerReceiver(exp4Receiver, intentFilter);
 
@@ -32,8 +32,8 @@ public class Exp4Activity extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getString(R.string.BroadcastExp1_3));
-                Log.i("Exp4", "Exp1Activity 发送了一条隐式广播（接收者为静态内部类）");
+                Intent intent = new Intent(getString(R.string.BroadcastExp4_1));
+                Log.i("Exp4", "Exp4Activity 发送了一条exp4.1广播");
                 localBroadcastManage.sendBroadcast(intent);
             }
         });

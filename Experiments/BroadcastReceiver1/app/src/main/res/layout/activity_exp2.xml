@@ -42,4 +42,10 @@
         android:layout_height="wrap_content"
         android:text="发送一条exp2.4的广播"
         tools:ignore="HardcodedText"/>
+    <Button
+        android:id="@+id/btn_exp2_5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="发送一条exp2.5的广播"
+        tools:ignore="HardcodedText"/>
 </LinearLayout>

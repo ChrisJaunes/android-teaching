@@ -12,7 +12,7 @@ public class Exp2Notification {
         NotificationCompat.Builder builder = new NotificationCompat.Builder(context, CHANNEL_ID)
                 .setSmallIcon(R.drawable.notification_icon_small1)
                 .setContentTitle("这里用来测试通知的更新")
-                .setContentText("测试一")
+                .setContentText("测试:未更新")
                 .setPriority(NotificationCompat.PRIORITY_HIGH);
         return builder.build();
     }
@@ -20,7 +20,7 @@ public class Exp2Notification {
         NotificationCompat.Builder builder = new NotificationCompat.Builder(context, CHANNEL_ID)
                 .setSmallIcon(R.drawable.notification_icon_small1)
                 .setContentTitle("这里用来测试通知的更新")
-                .setContentText("测试二")
+                .setContentText("测试：已更新")
                 .setPriority(NotificationCompat.PRIORITY_HIGH);
         return builder.build();
     }

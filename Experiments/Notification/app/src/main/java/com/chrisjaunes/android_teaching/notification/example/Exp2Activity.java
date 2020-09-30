@@ -31,7 +31,8 @@ public class Exp2Activity extends AppCompatActivity {
         CHANNEL_ID3 = getString(R.string.channel3_id);
 
         notificationManager = NotificationManagerCompat.from(this);
-        createNotificationChannel2();
+        ExpUtils.createNotificationChannel2(Exp2Activity.this, CHANNEL_ID2);
+        ExpUtils.createNotificationChannel3(Exp2Activity.this, CHANNEL_ID2);
 
         Button button1 =  findViewById(R.id.btn_exp2_1);
         button1.setOnClickListener(new View.OnClickListener() {
@@ -60,7 +61,6 @@ public class Exp2Activity extends AppCompatActivity {
             }
         });
 
-        createNotificationChannel3();
         Button button4 = findViewById(R.id.btn_exp2_4);
         button4.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -74,46 +74,39 @@ public class Exp2Activity extends AppCompatActivity {
         button5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                //Intent intent = new Intent(Settings.ACTION_CHANNEL_NOTIFICATION_SETTINGS);
-                //intent.putExtra(Settings.EXTRA_APP_PACKAGE, getPackageName());
-                //intent.putExtra(Settings.EXTRA_CHANNEL_ID, getString(R.string.channel3_id));
-                //startActivity(intent);
                 Intent intent = new Intent(Settings.ACTION_APP_NOTIFICATION_SETTINGS);
                 intent.putExtra(Settings.EXTRA_APP_PACKAGE, getPackageName());
                 startActivity(intent);
             }
         });
+
+        Button button6 = findViewById(R.id.btn_exp2_6);
+        button6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(Settings.ACTION_CHANNEL_NOTIFICATION_SETTINGS);
+                intent.putExtra(Settings.EXTRA_APP_PACKAGE, getPackageName());
+                intent.putExtra(Settings.EXTRA_CHANNEL_ID, getString(R.string.channel3_id));
+                startActivity(intent);
+            }
+        });
+
+        Button button7 = findViewById(R.id.btn_exp2_7);
+        button7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                notificationManager.cancel(10);
+            }
+        });
+
+        Button button8 = findViewById(R.id.btn_exp2_8);
+        button8.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                notificationManager.cancelAll();
+            }
+        });
     }
 
-    /** Create By ChrisJaunes
-     * 本处用于创建通知渠道
-     * 了解NotificationChannel的构造函数、getSystemService服务、setDescription方法
-     */
-    private void createNotificationChannel2() {
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-            CharSequence name = getString(R.string.channel2_name);
-            String description = getString(R.string.channel2_description);
-            int importance = NotificationManager.IMPORTANCE_DEFAULT;
 
-            NotificationChannel channel = new NotificationChannel(CHANNEL_ID2, name, importance);
-            channel.setDescription(description);
-            notificationManager.createNotificationChannel(channel);
-        }
-    }
-
-    /** Create By ChrisJaunes
-     * 本处用于构造一个更重要程度的渠道
-     * tips：了解IMPORTANCE_HIGH
-     */
-    private void createNotificationChannel3() {
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-            CharSequence name = getString(R.string.channel3_name);
-            String description = getString(R.string.channel3_description);
-            int importance = NotificationManager.IMPORTANCE_HIGH;
-
-            NotificationChannel channel = new NotificationChannel(CHANNEL_ID3, name, importance);
-            channel.setDescription(description);
-            notificationManager.createNotificationChannel(channel);
-        }
-    }
 }

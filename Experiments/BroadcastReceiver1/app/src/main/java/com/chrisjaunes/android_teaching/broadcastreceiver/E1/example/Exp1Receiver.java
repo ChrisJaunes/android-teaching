@@ -24,7 +24,7 @@ public class Exp1Receiver extends BroadcastReceiver {
         //可以执行Toast、发布通知栏信息、对话框（此时的context必须是一个Activity)、发送广播、开启服务、开启新的Activity
         Toast.makeText(context, "来自Exp1： 广播是可以使用Toast的", Toast.LENGTH_SHORT).show();
 
-        /* 本处说明使用线程（不建议使用），一旦广播接收器被销毁，子线程变成空线程，很容易被杀死*/
+        /* 本处说明使用线程（不建议使用），一旦广播接收器被销毁，子线程变成空线程，很容易被系统杀死*/
         //new Thread(new Runnable() {
         //    @Override
         //    public void run() {

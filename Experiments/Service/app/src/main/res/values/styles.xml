@@ -6,8 +6,11 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
         <item name="android:textColor">@color/colorPrimaryBlack</item>
-        <item name="android:textSize">25sp</item>
-        <item name="android:layout_marginTop">5sp</item>
+        <item name="buttonStyle">@style/MyButtonStyle</item>
     </style>
-
+    <style name="MyButtonStyle" parent="@android:style/Widget.Button">
+        <item name="android:background">@drawable/ic_button1</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:textColor">#FF000000</item>
+    </style>
 </resources>

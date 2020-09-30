@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.chrisjaunes.android_teaching.fragment">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".utils.EmptyActivity"
+            android:label="空的Activity"/>
+        <activity
+            android:name=".example.Exp3Activity"
+            android:label="实验三"/>
+        <activity
+            android:name=".example.Exp2Activity"
+            android:label="实验二"/>
+        <activity
+            android:name=".utils.DialogActivity"
+            android:theme="@style/Theme.AppCompat.Light.Dialog.Alert" />
+        <activity
+            android:name=".example.Exp1Activity"
+            android:label="实验一"/>
+        <activity android:name=".MainActivity"
+            android:label="安卓实验：碎片">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

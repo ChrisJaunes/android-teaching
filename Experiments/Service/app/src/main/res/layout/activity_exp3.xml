@@ -13,10 +13,27 @@
         android:text="原始文本"
         tools:ignore="HardcodedText"/>
     <Button
-        android:id="@+id/btn_exp3_change"
+        android:id="@+id/btn_exp3_0"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text = "异步改变文本"
+        android:text = "开启后台服务"
         tools:ignore="HardcodedText"/>
-
+    <Button
+        android:id="@+id/btn_exp3_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text = "开启前台服务"
+        tools:ignore="HardcodedText"/>
+    <Button
+        android:id="@+id/btn_exp3_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text = "停止前台服务"
+        tools:ignore="HardcodedText"/>
+    <Button
+        android:id="@+id/btn_exp3_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text = "停止该服务"
+        tools:ignore="HardcodedText"/>
 </LinearLayout>

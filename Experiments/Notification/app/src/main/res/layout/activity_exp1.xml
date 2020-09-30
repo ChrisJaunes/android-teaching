@@ -34,12 +34,18 @@
         android:id="@+id/btn_exp1_5"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="创建一条拥有大文本的通知"
+        android:text="创建一条拥有长文本的通知"
         tools:ignore="HardcodedText"/>
     <Button
         android:id="@+id/btn_exp1_6"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="创建一条拥有大图片的通知"
+        tools:ignore="HardcodedText"/>
+    <Button
+        android:id="@+id/btn_exp1_7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="创建一个前台服务"
         tools:ignore="HardcodedText"/>
 </LinearLayout>

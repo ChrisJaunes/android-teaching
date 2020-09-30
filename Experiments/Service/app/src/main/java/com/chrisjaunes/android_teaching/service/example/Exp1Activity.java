@@ -21,7 +21,7 @@ public class Exp1Activity extends AppCompatActivity {
         btn_exp1_start_service.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Log.i("Exp1", "Exp1Activity 启动了服务 Exp1Service");
+                Log.i("Exp1", "Exp1Activity 启动了服务 Exp1Service1");
                 Intent intent = new Intent(Exp1Activity.this, Exp1Service.class);
                 startService(intent);
             }

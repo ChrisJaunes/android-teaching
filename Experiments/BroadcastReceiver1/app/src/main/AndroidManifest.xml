@@ -9,11 +9,22 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".example.Exp4Activity"></activity>
-        <activity android:name=".example.Exp2EmptyActivity" />
-        <activity android:name=".example.Exp3Activity" />
-        <activity android:name=".example.Exp2Activity" />
-        <activity android:name=".example.Exp1Activity" />
+        <activity
+            android:name=".example.Exp4Activity"
+            android:label="实验四" />
+        <activity
+            android:name=".example.Exp3Activity"
+            android:label="实验三" />
+        <activity
+            android:name=".example.Exp2EmptyActivity"
+            android:label="实验二：空的活动"
+            />
+        <activity
+            android:name=".example.Exp2Activity"
+            android:label="实验二"/>
+        <activity
+            android:name=".example.Exp1Activity"
+            android:label="实验一"/>
 
         <receiver
             android:name=".example.Exp1Receiver"

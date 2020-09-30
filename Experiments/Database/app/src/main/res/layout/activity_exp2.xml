@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".example.Exp2Activity">
+    <EditText
+        android:id="@+id/tv_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="用户姓名"
+        tools:ignore="Autofill,HardcodedText"/>
+    <EditText
+        android:id="@+id/tv_age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="用户年龄"
+        android:inputType="number"
+        tools:ignore="Autofill,HardcodedText" />
+    <EditText
+        android:id="@+id/tv_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="用户电话"
+        android:inputType="phone"
+        tools:ignore="Autofill, HardcodedText"/>
+    <Button
+        android:id="@+id/btn_exp1_ins"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="插入用户"
+        tools:ignore="HardcodedText"/>
+    <Button
+        android:id="@+id/btn_exp1_upt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="更新用户"
+        tools:ignore="HardcodedText"/>
+    <Button
+        android:id="@+id/btn_exp1_del"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="删除用户"
+        tools:ignore="HardcodedText"/>
+    <Button
+        android:id="@+id/btn_exp1_queAll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="查询所有用户"
+        tools:ignore="HardcodedText"/>
+    <ListView
+        android:id="@+id/btn_exp1_queList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">BroadcastReceiver1</string>
+    <string name="app_name">安卓实验：广播</string>
     <string name="BroadcastExp1_1">com.chrisjaunes.android_teaching.broadcastreceiver.exp1.1</string>
     <string name="BroadcastExp1_3">com.chrisjaunes.android_teaching.broadcastreceiver.exp1.3</string>
     <string name="NetChange">android.net.conn.CONNECTIVITY_CHANGE</string>
@@ -7,6 +7,7 @@
     <string name="BroadcastExp2_2">com.chrisjaunes.android_teaching.broadcastreceiver.exp2.2</string>
     <string name="BroadcastExp2_3">com.chrisjaunes.android_teaching.broadcastreceiver.exp2.3</string>
     <string name="BroadcastExp2_4">com.chrisjaunes.android_teaching.broadcastreceiver.exp2.4</string>
+    <string name="BroadcastExp2_5">com.chrisjaunes.android_teaching.broadcastreceiver.exp2.5</string>
     <string name="BroadcastExp3_1">com.chrisjaunes.android_teaching.broadcastreceiver.exp3.1</string>
     <string name="BroadcastExp3_2">com.chrisjaunes.android_teaching.broadcastreceiver.exp3.2</string>
     <string name="BroadcastExp3_3">com.chrisjaunes.android_teaching.broadcastreceiver.exp3.3</string>

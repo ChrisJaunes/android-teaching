@@ -16,6 +16,12 @@
         android:id="@+id/btn_exp3_2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="创建一条可以启动Exp3Activity的通知"
+        android:text="创建一条具有操作按钮的通知"
+        tools:ignore="HardcodedText"/>
+    <Button
+        android:id="@+id/btn_exp3_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="创建一条显示紧急消息的通知"
         tools:ignore="HardcodedText"/>
 </LinearLayout>

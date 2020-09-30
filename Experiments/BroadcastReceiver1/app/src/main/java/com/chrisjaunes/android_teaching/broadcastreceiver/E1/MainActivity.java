@@ -11,6 +11,7 @@ import android.widget.Button;
 import com.chrisjaunes.android_teaching.broadcastreceiver.E1.example.Exp1Activity;
 import com.chrisjaunes.android_teaching.broadcastreceiver.E1.example.Exp2Activity;
 import com.chrisjaunes.android_teaching.broadcastreceiver.E1.example.Exp3Activity;
+import com.chrisjaunes.android_teaching.broadcastreceiver.E1.example.Exp4Activity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -41,6 +42,14 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(MainActivity.this, Exp3Activity.class);
+                startActivity(intent);
+            }
+        });
+        Button btn_Exp4 = findViewById(R.id.btn_exp4);
+        btn_Exp4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, Exp4Activity.class);
                 startActivity(intent);
             }
         });

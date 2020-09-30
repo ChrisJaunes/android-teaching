@@ -61,6 +61,6 @@ class Exp2Receiver4 extends BroadcastReceiver{
     @Override
     public void onReceive(Context context, Intent intent) {
         Log.i("Exp2", "Exp2Receiver1 接受到了广播 并且调用了 onReciver, [当前线程: " + Thread.currentThread() + "]");
-        Toast.makeText(context, "Exp2.4/Exp3.1", Toast.LENGTH_SHORT).show();
+        Toast.makeText(context, "Exp2.4/Exp2.5", Toast.LENGTH_SHORT).show();
     }
 }

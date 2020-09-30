@@ -29,4 +29,10 @@
         android:layout_height="wrap_content"
         android:text="实验三"
         tools:ignore="HardcodedText" />
+    <Button
+        android:id="@+id/btn_exp4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="实验四"
+        tools:ignore="HardcodedText" />
 </LinearLayout>

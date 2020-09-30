@@ -3,6 +3,7 @@
     package="com.chrisjaunes.android_teaching.notification">
 
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT " />
 
     <application
         android:allowBackup="true"
@@ -11,20 +12,35 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <service
+            android:name=".example.Exp1Service"
+            android:enabled="true"
+            android:exported="true"/>
+
+        <activity android:name=".example.EmptyActivity" />
+
         <receiver
             android:name=".example.Exp3BroadcastReceiver"
             android:enabled="true"
-            android:exported="true"></receiver>
+            android:exported="true" />
 
         <service
             android:name=".example.Exp3Service"
             android:enabled="true"
             android:exported="true" />
 
-        <activity android:name=".example.Exp3Activity" />
-        <activity android:name=".example.Exp2Activity" />
-        <activity android:name=".example.Exp1Activity" />
-        <activity android:name=".MainActivity">
+        <activity
+            android:name=".example.Exp3Activity"
+            android:label="实验三" />
+        <activity
+            android:name=".example.Exp2Activity"
+            android:label="实验二" />
+        <activity
+            android:name=".example.Exp1Activity"
+            android:label="实验一" />
+        <activity
+            android:name=".MainActivity"
+            android:label="安卓实验：通知">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

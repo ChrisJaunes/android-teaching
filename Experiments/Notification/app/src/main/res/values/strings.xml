@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Notification</string>
+    <string name="app_name">通知-安卓实验</string>
     <string name="channel1_id">CHANNEL_ID1</string>
     <string name="channel1_name">渠道一</string>
     <string name="channel1_description">这里是关于渠道一的描述</string>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">BroadcastReceiver2</string>
+    <string name="BroadcastExp3_2">com.chrisjaunes.android_teaching.broadcastreceiver.exp3.2</string>
+    <string name="BroadcastExp3_3">com.chrisjaunes.android_teaching.broadcastreceiver.exp3.3</string>
+</resources>

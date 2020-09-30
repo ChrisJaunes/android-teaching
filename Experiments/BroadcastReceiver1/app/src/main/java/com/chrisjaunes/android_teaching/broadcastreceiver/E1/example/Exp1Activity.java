@@ -32,7 +32,7 @@ public class Exp1Activity extends AppCompatActivity implements View.OnClickListe
     }
 
     /** Created By ChrisJaunes
-     * 本处用于发送广播， 如何发送广播会在后续实验中进行探讨
+     * 本处用于发送广播， 如何发送广播会在后续实验中进行探讨，本处可以选择性忽略
      * @param view
      */
     @Override

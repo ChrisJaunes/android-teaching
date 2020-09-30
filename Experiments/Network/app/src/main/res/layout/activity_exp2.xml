@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".example.Exp2Activity">
+    <Button
+        android:id="@+id/btn_exp2_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="利用拼接进行get请求"
+        tools:ignore="HardcodedText" />
+    <Button
+        android:id="@+id/btn_exp2_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="利用httpurl拼接get请求"
+        tools:ignore="HardcodedText" />
+    <Button
+        android:id="@+id/btn_exp2_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="不能在非UI线程中修改UI组件"
+        tools:ignore="HardcodedText" />
+    <Button
+        android:id="@+id/btn_exp2_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="利用run修改UI组件"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/tv_exp2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="接收到服务器返回的信息将显示在这里"
+        tools:ignore="HardcodedText" />
+</LinearLayout>

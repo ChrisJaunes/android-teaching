@@ -13,18 +13,21 @@
         android:gravity="center"
         android:text="本实验关于service"
         tools:ignore="HardcodedText" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="必做实验"
+        tools:ignore="HardcodedText"/>
     <Button
         android:id="@+id/btn_exp1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@android:color/transparent"
         android:text="实验一"
         tools:ignore="HardcodedText" />
     <Button
         android:id="@+id/btn_exp2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@android:color/transparent"
         android:text="实验二"
         tools:ignore="HardcodedText" />
 
@@ -32,7 +35,6 @@
         android:id="@+id/btn_exp3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@android:color/transparent"
         android:text="实验三"
         tools:ignore="HardcodedText" />
 
@@ -40,7 +42,30 @@
         android:id="@+id/btn_exp4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@android:color/transparent"
         android:text="实验四"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btn_exp5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="实验五"
+        tools:ignore="HardcodedText" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="自选实验"
+        tools:ignore="HardcodedText"/>
+    <Button
+        android:id="@+id/btn_expA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="下载实验"
+        tools:ignore="HardcodedText" />
+    <Button
+        android:id="@+id/btn_expB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="音乐播放实验"
         tools:ignore="HardcodedText" />
 </LinearLayout>

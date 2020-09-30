@@ -10,30 +10,48 @@
         android:id="@+id/btn_exp2_1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="在渠道二发起一条通知，id为10"
+        android:text="在渠道二发起一条ID为10的通知"
         tools:ignore="HardcodedText"/>
     <Button
         android:id="@+id/btn_exp2_2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="在渠道二更新一条通知，id为10"
+        android:text="在渠道二更新一条ID为10的通知"
         tools:ignore="HardcodedText"/>
     <Button
         android:id="@+id/btn_exp2_3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="在渠道二发起一条通知，id为11\n带进度条，每次点击可以增加10%"
+        android:text="在渠道二发起一条ID为11的通知\n带进度条，每次点击可以增加10%"
         tools:ignore="HardcodedText"/>
     <Button
         android:id="@+id/btn_exp2_4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="在渠道三发起一条通知，id为12"
+        android:text="在渠道三发起一条ID为12的通知"
         tools:ignore="HardcodedText"/>
     <Button
         android:id="@+id/btn_exp2_5"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="进入系统通知设置"
+        tools:ignore="HardcodedText"/>
+    <Button
+        android:id="@+id/btn_exp2_6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="进入系统关于频道三的通知设置"
+        tools:ignore="HardcodedText"/>
+    <Button
+        android:id="@+id/btn_exp2_7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="移除ID为10的通知"
+        tools:ignore="HardcodedText"/>
+    <Button
+        android:id="@+id/btn_exp2_8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="移除本应用发出的全部通知"
         tools:ignore="HardcodedText"/>
 </LinearLayout>
