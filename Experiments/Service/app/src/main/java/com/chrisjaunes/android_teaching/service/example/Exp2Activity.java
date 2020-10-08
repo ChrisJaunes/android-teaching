@@ -23,7 +23,7 @@ public class Exp2Activity extends AppCompatActivity {
             Log.i("Exp2", "ServiceConnection1 调用了 onServiceConnected");
             Exp2Service.Exp2Binder exp2Binder1 = (Exp2Service.Exp2Binder) iBinder;
             Exp2Service1 = exp2Binder1.getExp2Service();
-            Log.i("Exp2", "exp2Binder1的content为" + exp2Binder1);
+            Log.i("Exp2", "exp2Binder1的context为" + exp2Binder1);
         }
 
         @Override
@@ -37,7 +37,7 @@ public class Exp2Activity extends AppCompatActivity {
         public void onServiceConnected(ComponentName componentName, IBinder iBinder) {
             Log.i("Exp2", "ServiceConnection2 调用了 onServiceConnected");
             exp2Binder2 = (Exp2Service.Exp2Binder) iBinder;
-            Log.i("Exp2", "exp2Binder2的content为" + exp2Binder2);
+            Log.i("Exp2", "exp2Binder2的context为" + exp2Binder2);
         }
 
         @Override

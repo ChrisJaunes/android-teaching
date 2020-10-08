@@ -3,6 +3,8 @@
     package="com.chrisjaunes.android_teaching.network">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
 
     <application
         android:allowBackup="true"
@@ -12,7 +14,15 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name=".example.Exp4Activity"></activity>
+
+        <activity android:name=".download.DownloadActivity" />
+
+        <service
+            android:name=".download.DownloadService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity android:name=".example.Exp4Activity" />
         <activity android:name=".example.Exp3Activity" />
         <activity android:name=".example.Exp2Activity" />
         <activity android:name=".example.Exp1Activity" />

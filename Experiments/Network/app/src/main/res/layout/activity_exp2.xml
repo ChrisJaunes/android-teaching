@@ -28,7 +28,7 @@
         android:id="@+id/btn_exp2_4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="利用run修改UI组件"
+        android:text="利用RunOnThread修改UI组件"
         tools:ignore="HardcodedText" />
 
     <TextView

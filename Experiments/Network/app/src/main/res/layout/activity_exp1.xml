@@ -17,12 +17,12 @@
         android:id="@+id/btn_exp1_2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="同步请求, 采用MainThread"
+        android:text="同步请求, 采用execute"
         tools:ignore="HardcodedText"/>
     <Button
         android:id="@+id/btn_exp1_3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="异步请求"
+        android:text="异步请求, 采用enqueue"
         tools:ignore="HardcodedText"/>
 </LinearLayout>

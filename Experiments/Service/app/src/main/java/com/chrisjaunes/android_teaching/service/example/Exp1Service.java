@@ -25,7 +25,7 @@ public class Exp1Service extends Service {
         Log.i("Exp1", "Exp1Service1 调用了onStartCommand");
         try {
             final long execTime = 1000;
-            final boolean execAutoStop = false;
+            final boolean execAutoStop = true;
 
             Thread.sleep(execTime);
             if(execAutoStop) stopSelf();

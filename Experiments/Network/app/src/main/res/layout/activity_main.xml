@@ -6,6 +6,11 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".MainActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Created By ChrisJaunes\n本实验用于初步学习安卓网络机制"
+        tools:ignore="HardcodedText" />
 
     <Button
         android:id="@+id/btn_exp1"
@@ -30,5 +35,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="实验四"
+        tools:ignore="HardcodedText"/>
+    <Button
+        android:id="@+id/btn_exp_download"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="下载实验"
         tools:ignore="HardcodedText"/>
 </LinearLayout>

@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.chrisjaunes.android_teaching.network.download.DownloadActivity;
 import com.chrisjaunes.android_teaching.network.example.Exp1Activity;
 import com.chrisjaunes.android_teaching.network.example.Exp2Activity;
 import com.chrisjaunes.android_teaching.network.example.Exp3Activity;
@@ -47,6 +48,14 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(MainActivity.this, Exp4Activity.class);
+                startActivity(intent);
+            }
+        });
+        Button btnD = findViewById(R.id.btn_exp_download);
+        btnD.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, DownloadActivity.class);
                 startActivity(intent);
             }
         });

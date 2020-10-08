@@ -42,6 +42,9 @@ public class Exp2Service extends Service {
     }
 
     public class Exp2Binder extends Binder {
+        Exp2Binder() {
+            Log.i("Exp2", "Exp2Binder 调用了构造函数");
+        }
         Exp2Service getExp2Service() {
             Log.i("Exp2", "Exp2Binder 调用了 getExp2Service");
             return Exp2Service.this;

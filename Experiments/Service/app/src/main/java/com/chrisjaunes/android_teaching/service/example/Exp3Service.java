@@ -47,4 +47,10 @@ public class Exp3Service extends Service {
     public IBinder onBind(Intent intent) {
         throw new UnsupportedOperationException("Not yet implemented");
     }
+
+    @Override
+    public void onDestroy() {
+        super.onDestroy();
+        Log.i("Exp3", "Exp3Service 调用了 onDestroy");
+    }
 }

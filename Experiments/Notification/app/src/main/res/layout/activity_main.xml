@@ -10,7 +10,8 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Created By ChrisJaunes\n本实验用于初步学习安卓通知机制"/>
+        android:text="Created By ChrisJaunes\n本实验用于初步学习安卓通知机制"
+        tools:ignore="HardcodedText" />
     <Button
         android:id="@+id/btn_exp1"
         android:layout_width="match_parent"

@@ -13,10 +13,22 @@
         android:text="原始文本"
         tools:ignore="HardcodedText"/>
     <Button
-        android:id="@+id/btn_exp4_change"
+        android:id="@+id/btn_exp4_1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text = "异步改变文本"
+        android:text = "非UI线程改变文本"
+        tools:ignore="HardcodedText"/>
+    <Button
+        android:id="@+id/btn_exp4_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text = "异步改变文本，采用Handle"
+        tools:ignore="HardcodedText"/>
+    <Button
+        android:id="@+id/btn_exp4_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="异步改变文本，采用runOnUiThread"
         tools:ignore="HardcodedText"/>
 
 </LinearLayout>

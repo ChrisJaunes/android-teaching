@@ -32,7 +32,7 @@ public class Exp2Activity extends AppCompatActivity {
 
         notificationManager = NotificationManagerCompat.from(this);
         ExpUtils.createNotificationChannel2(Exp2Activity.this, CHANNEL_ID2);
-        ExpUtils.createNotificationChannel3(Exp2Activity.this, CHANNEL_ID2);
+        ExpUtils.createNotificationChannel3(Exp2Activity.this, CHANNEL_ID3);
 
         Button button1 =  findViewById(R.id.btn_exp2_1);
         button1.setOnClickListener(new View.OnClickListener() {
